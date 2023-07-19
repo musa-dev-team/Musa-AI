@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 const readline = require('readline');
 
-var ws = new WebSocket('ws://localhost:8765');
+var ws = new WebSocket('ws://ec2-54-161-215-222.compute-1.amazonaws.com:8765');
 
 const rl = readline.createInterface({
     input: process.stdin,
