@@ -37,6 +37,7 @@
     <a href="https://github.com/musa-dev-team/Musa-AI/issues">Request Feature</a>
   </p>
 </div>
+<br></br>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>📑 Table of Contents</summary>
@@ -63,7 +64,6 @@
   </ol>
 </details>
 <!-- ABOUT THE PROJECT -->
-<br></br>
 
 # ℹ️ About The Project 
 
