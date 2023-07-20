@@ -136,7 +136,10 @@ When you are happy, run `-confirm` to move on.
 ### Collaborative Task Execution
 In Collaborative Task Execution, you are able to walk step-by-step through the implementation with Musa to ensure that it is running according to your specifications. Run `-task` to see the current task, and change the task implementation by telling Musa what you want changed. Chanes made will be refactored across the entire task process.
 
-When you are ready to execute a task, type `-run`. 
+When you are ready to execute a task, type `-run`.
+
+### Once Complete
+Once complete, you will be able to find your Musa-created PR in your GitHub Repo. How exciting!
 
 ## Usage and Limitations
 Musa is still in its early stages, so there are a few limitations to our capabilities. Although we use human-machine interactions to increase code reliability, Musa works best of smaller development tasks. 
