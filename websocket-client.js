@@ -1,5 +1,6 @@
 const WebSocket = require('ws');
 const readline = require('readline');
+require('dotenv').config();
 
 var ws = new WebSocket('ws://ec2-54-161-215-222.compute-1.amazonaws.com:8765');
 
@@ -13,6 +14,10 @@ rl.on('line', (input) => {
 });
 
 ws.on('open', function open() {
+    repo_url = process.env.REPOSITORY_URL;
+    installation_id = process.env.INSTALLATION_ID;
+    ws.send(repo_url);
+    ws.send(installation_id);
 });
 
 ws.on('message', function incoming(data) {
