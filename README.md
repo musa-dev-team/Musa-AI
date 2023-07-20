@@ -22,7 +22,7 @@
   <a href="https://github.com/github_username/repo_name">
     <img src="src/musa.png" alt="Logo">
   </a>
-<h2 align="center">🤖 Musa AI 🤖</h3>
+<!-- <h3 align="center">🤖 Musa AI 🤖</h3> -->
   <p align="center">
     Interactive AI coding agents that actually get your work done. 
     <br />
