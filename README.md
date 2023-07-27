@@ -119,15 +119,13 @@ Collaborative Planning lets you work with Musa to agree on an implementation str
 When you are happy, run `-confirm` to move on.
 
 ## 📋 Collaborative Task Execution 
-In Collaborative Task Execution, you are able to walk step-by-step through the implementation with Musa to ensure that it is running according to your specifications. Run `-task` to see the current task, and change the task implementation by telling Musa what you want changed. Changes made will be refactored across the entire task process.
+In Collaborative Task Execution, you are able to walk step-by-step through the implementation with Musa to ensure that it is running according to your specifications. Run `-task` to see the current task, and change the task implementation by telling Musa what you want changed. Changes made will be refactored across the entire task process. Once all tasks have been completed, you will be able to find your Musa-created PR in your GitHub Repo. How exciting! 🎉
 
 When you are ready to execute a task, type `-run`.
 
-## ✅ Once Complete 
-Once complete, you will be able to find your Musa-created PR in your GitHub Repo. How exciting! 🎉
-
-## 📝 Usage and Limitations 
-Musa is still in its early stages, so there are a few
+## 🔄 GitHub PR Review
+Once your Pull Request has been created, you can review it in GitHub. If you have any changes that need to be made, you can comment on the PR and Musa will make the changes for you. 🤖
+<!-- ## 📝 Usage and Limitations  -->
 <br></br>
 
 # ❤️ From Musa 
