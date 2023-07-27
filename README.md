@@ -37,6 +37,7 @@
     <a href="https://github.com/musa-dev-team/Musa-AI/issues">Request Feature</a>
   </p>
 </div>
+<br></br>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>📑 Table of Contents</summary>
@@ -63,7 +64,6 @@
   </ol>
 </details>
 <!-- ABOUT THE PROJECT -->
-<br></br>
 
 # ℹ️ About The Project 
 
@@ -92,7 +92,7 @@ To do so, do the following:
 1. Navigate to our GitHub Repo at: https://github.com/musa-dev-team/Musa-AI
 2. Clone the repo locally
 3. Copy and paste `.env.sample` and rename the copy to `.env`
-4. Complete the `.env`
+4. Fill in `.env` with you REPOSITORY_URL and INSTALLATION_ID
 5. Run `npm install`
 
 Now you're ready to start your Musa Agent! 🎉
