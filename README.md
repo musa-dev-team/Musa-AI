@@ -77,33 +77,34 @@ Interact with the agent at every step of the process, including discussing the d
 # 🚀 Getting Started 
 Running a Musa Agent is a very simple task. Just add our GitHub Application to your repo, clone this repository, and run the client-side agent. It's that easy! 🤩
 
-## Installing the GitHub App
+## 1. Installing Musa Github helper
 To install the GitHub App, follow these steps.
-1. Navigate to our GitHub App page at: https://github.com/apps/musa-ai-helper
+1. Go to https://github.com/apps/musa-ai-helper
 2. At the top right, click `Install` 🛠️
 3. Select where you want to install Musa AI Helper
 4. Select your repos and click `Install & Request`
-5. Take note of the installation ID - at the end of the page's URL "installations/<installation_id>"
-
-## Setting Up the Client Helper
-To run Musa AI from your console, you need to set up the client-side helper application.
-To do so, do the following:
-
-1. Navigate to our GitHub Repo at: https://github.com/musa-dev-team/Musa-AI
-2. Clone the repo locally
-3. Copy and paste `.env.sample` and rename the copy to `.env`
-4. Fill in `.env` with you REPOSITORY_URL and INSTALLATION_ID
-5. Run `npm install`
-
-Now you're ready to start your Musa Agent! 🎉
+5. Paste the installation ID somewhere - at the end of the page's URL "installations/<installation_id>"
 
 Note: To find your installation id, navigate to https://github.com/apps/musa-ai-helper, click configure, click your team, and fit the installation id at the end of the page's URL: github.com/apps/musa-ai-helper/installations/<installation_id>
 <br></br>
 
-<!-- USAGE EXAMPLES -->
-# 💡 Running your Musa Agent 
-To start your Musa Agent, simply run `./musa.sh`. You will then be prompted to input some setup information about your objective, such as a name, a description, and some collaboration choices. See below to learn about the collaboration types. 🏗️👩‍💻
+## 2. Install Musa client app
+The second step is to install Musa client app:
 
+1. Clone Musa-AI repo locally: git clone https://github.com/musa-dev-team/Musa-AI.git
+2. Copy and paste `.env.sample` and rename the copy to `.env`
+4. Fill in `.env` with you REPOSITORY_URL and INSTALLATION_ID
+   , REPOSITORY_URL is the repo you want Musa to work on.
+5. Run `npm install`
+
+Now you're ready to start your Musa Agent! 🎉
+
+## 3. Running your Musa Agent 
+To start your Musa Agent, simply run `./musa.sh`
+
+
+<!-- USAGE EXAMPLES -->
+When running Musa app, you will then be prompted to input some setup information about your objective, such as a name, a description, and some collaboration choices. See below to learn about the collaboration types. 🏗️👩‍💻
 The Musa Agent's development process is broken down into 3 parts.
 
 ## 🎯 Objective Clarification 
